@@ -68,19 +68,86 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About_Us.aspx" />
+    <Content Include="AccessoriesPage.aspx" />
     <Content Include="Add_To_Cart.aspx" />
+    <Content Include="AirtelRecharge.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="BudsDetails.aspx" />
     <Content Include="Cart_Page.aspx" />
     <Content Include="Contact_Us.aspx" />
+    <Content Include="CoverDetails.aspx" />
     <Content Include="Forget_Pass_Page.aspx" />
     <Content Include="Gallery_Page.aspx" />
     <Content Include="Home_Page.aspx" />
+    <Content Include="Iphone.aspx" />
+    <Content Include="IphoneBuds.aspx" />
+    <Content Include="IphoneBudsDetails.aspx" />
+    <Content Include="IphoneCableDetails.aspx" />
+    <Content Include="IphoneCables.aspx" />
+    <Content Include="IphoneChargerDetails.aspx" />
+    <Content Include="IphoneChargers.aspx" />
+    <Content Include="IphoneCoverDetails.aspx" />
+    <Content Include="IphoneCovers.aspx" />
+    <Content Include="IphoneMobiles.aspx" />
+    <Content Include="IphonePhoneDetails.aspx" />
+    <Content Include="JioRecharge.aspx" />
     <Content Include="Login_Page.aspx" />
+    <Content Include="MobileAccessories.aspx" />
+    <Content Include="MobileAccessoryDetails.aspx" />
+    <Content Include="MobileDetails.aspx" />
+    <Content Include="MobileSection.aspx" />
+    <Content Include="OnePlus.aspx" />
+    <Content Include="OnePlusBuds.aspx" />
+    <Content Include="OnePlusBudsDetails.aspx" />
+    <Content Include="OnePlusCableDetails.aspx" />
+    <Content Include="OnePlusCables.aspx" />
+    <Content Include="OnePlusChargerDetails.aspx" />
+    <Content Include="OnePlusChargers.aspx" />
+    <Content Include="OnePlusCoverDetails.aspx" />
+    <Content Include="OnePlusCovers.aspx" />
+    <Content Include="OnePlusMobiles.aspx" />
+    <Content Include="OnePlusPhoneDetails.aspx" />
+    <Content Include="Realme.aspx" />
+    <Content Include="RealmeBuds.aspx" />
+    <Content Include="RealmeBudsDetails.aspx" />
+    <Content Include="RealmeCableDetails.aspx" />
+    <Content Include="RealmeCables.aspx" />
+    <Content Include="RealmeChargerDetails.aspx" />
+    <Content Include="RealmeChargers.aspx" />
+    <Content Include="RealmeCoverDetails.aspx" />
+    <Content Include="RealmeCovers.aspx" />
+    <Content Include="RealmeMobile.aspx" />
+    <Content Include="RealmeMobileDetails.aspx" />
+    <Content Include="RechargeSection.aspx" />
     <Content Include="Registration_Page.aspx" />
+    <Content Include="Samsung.aspx" />
+    <Content Include="SamsungBuds.aspx" />
+    <Content Include="SamsungBudsDetails.aspx" />
+    <Content Include="SamsungCableDetails.aspx" />
+    <Content Include="SamsungCables.aspx" />
+    <Content Include="SamsungChargerDetails.aspx" />
+    <Content Include="SamsungChargers.aspx" />
+    <Content Include="SamsungCoverDetails.aspx" />
+    <Content Include="SamsungCovers.aspx" />
+    <Content Include="SamsungMobiles.aspx" />
+    <Content Include="SamsungPhoneDetails.aspx" />
+    <Content Include="SearchResults.aspx" />
+    <Content Include="ViRecharge.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Xiaomi.aspx" />
+    <Content Include="XiaomiBuds.aspx" />
+    <Content Include="XiaomiBudsDetails.aspx" />
+    <Content Include="XiaomiCableDetails.aspx" />
+    <Content Include="XiaomiCables.aspx" />
+    <Content Include="XiaomiChargerDetails.aspx" />
+    <Content Include="XiaomiChargers.aspx" />
+    <Content Include="XiaomiCoverDetails.aspx" />
+    <Content Include="XiaomiCovers.aspx" />
+    <Content Include="XiaomiMobile.aspx" />
+    <Content Include="XiaomiMobileDetails.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About_Us.aspx.cs">
@@ -90,12 +157,33 @@
     <Compile Include="About_Us.aspx.designer.cs">
       <DependentUpon>About_Us.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AccessoriesPage.aspx.cs">
+      <DependentUpon>AccessoriesPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccessoriesPage.aspx.designer.cs">
+      <DependentUpon>AccessoriesPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Add_To_Cart.aspx.cs">
       <DependentUpon>Add_To_Cart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Add_To_Cart.aspx.designer.cs">
       <DependentUpon>Add_To_Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AirtelRecharge.aspx.cs">
+      <DependentUpon>AirtelRecharge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AirtelRecharge.aspx.designer.cs">
+      <DependentUpon>AirtelRecharge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BudsDetails.aspx.cs">
+      <DependentUpon>BudsDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BudsDetails.aspx.designer.cs">
+      <DependentUpon>BudsDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Cart_Page.aspx.cs">
       <DependentUpon>Cart_Page.aspx</DependentUpon>
@@ -110,6 +198,13 @@
     </Compile>
     <Compile Include="Contact_Us.aspx.designer.cs">
       <DependentUpon>Contact_Us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CoverDetails.aspx.cs">
+      <DependentUpon>CoverDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoverDetails.aspx.designer.cs">
+      <DependentUpon>CoverDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forget_Pass_Page.aspx.cs">
       <DependentUpon>Forget_Pass_Page.aspx</DependentUpon>
@@ -132,6 +227,90 @@
     <Compile Include="Home_Page.aspx.designer.cs">
       <DependentUpon>Home_Page.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Iphone.aspx.cs">
+      <DependentUpon>Iphone.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Iphone.aspx.designer.cs">
+      <DependentUpon>Iphone.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IphoneBuds.aspx.cs">
+      <DependentUpon>IphoneBuds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IphoneBuds.aspx.designer.cs">
+      <DependentUpon>IphoneBuds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IphoneBudsDetails.aspx.cs">
+      <DependentUpon>IphoneBudsDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IphoneBudsDetails.aspx.designer.cs">
+      <DependentUpon>IphoneBudsDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IphoneCableDetails.aspx.cs">
+      <DependentUpon>IphoneCableDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IphoneCableDetails.aspx.designer.cs">
+      <DependentUpon>IphoneCableDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IphoneCables.aspx.cs">
+      <DependentUpon>IphoneCables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IphoneCables.aspx.designer.cs">
+      <DependentUpon>IphoneCables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IphoneChargerDetails.aspx.cs">
+      <DependentUpon>IphoneChargerDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IphoneChargerDetails.aspx.designer.cs">
+      <DependentUpon>IphoneChargerDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IphoneChargers.aspx.cs">
+      <DependentUpon>IphoneChargers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IphoneChargers.aspx.designer.cs">
+      <DependentUpon>IphoneChargers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IphoneCoverDetails.aspx.cs">
+      <DependentUpon>IphoneCoverDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IphoneCoverDetails.aspx.designer.cs">
+      <DependentUpon>IphoneCoverDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IphoneCovers.aspx.cs">
+      <DependentUpon>IphoneCovers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IphoneCovers.aspx.designer.cs">
+      <DependentUpon>IphoneCovers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IphoneMobiles.aspx.cs">
+      <DependentUpon>IphoneMobiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IphoneMobiles.aspx.designer.cs">
+      <DependentUpon>IphoneMobiles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IphonePhoneDetails.aspx.cs">
+      <DependentUpon>IphonePhoneDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IphonePhoneDetails.aspx.designer.cs">
+      <DependentUpon>IphonePhoneDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JioRecharge.aspx.cs">
+      <DependentUpon>JioRecharge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JioRecharge.aspx.designer.cs">
+      <DependentUpon>JioRecharge.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login_Page.aspx.cs">
       <DependentUpon>Login_Page.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -146,13 +325,370 @@
     <Compile Include="Master_Page.Master.designer.cs">
       <DependentUpon>Master_Page.Master</DependentUpon>
     </Compile>
+    <Compile Include="MobileAccessories.aspx.cs">
+      <DependentUpon>MobileAccessories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MobileAccessories.aspx.designer.cs">
+      <DependentUpon>MobileAccessories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MobileAccessoryDetails.aspx.cs">
+      <DependentUpon>MobileAccessoryDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MobileAccessoryDetails.aspx.designer.cs">
+      <DependentUpon>MobileAccessoryDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MobileDetails.aspx.cs">
+      <DependentUpon>MobileDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MobileDetails.aspx.designer.cs">
+      <DependentUpon>MobileDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MobileSection.aspx.cs">
+      <DependentUpon>MobileSection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MobileSection.aspx.designer.cs">
+      <DependentUpon>MobileSection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnePlus.aspx.cs">
+      <DependentUpon>OnePlus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnePlus.aspx.designer.cs">
+      <DependentUpon>OnePlus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnePlusBuds.aspx.cs">
+      <DependentUpon>OnePlusBuds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnePlusBuds.aspx.designer.cs">
+      <DependentUpon>OnePlusBuds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnePlusBudsDetails.aspx.cs">
+      <DependentUpon>OnePlusBudsDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnePlusBudsDetails.aspx.designer.cs">
+      <DependentUpon>OnePlusBudsDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnePlusCableDetails.aspx.cs">
+      <DependentUpon>OnePlusCableDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnePlusCableDetails.aspx.designer.cs">
+      <DependentUpon>OnePlusCableDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnePlusCables.aspx.cs">
+      <DependentUpon>OnePlusCables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnePlusCables.aspx.designer.cs">
+      <DependentUpon>OnePlusCables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnePlusChargerDetails.aspx.cs">
+      <DependentUpon>OnePlusChargerDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnePlusChargerDetails.aspx.designer.cs">
+      <DependentUpon>OnePlusChargerDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnePlusChargers.aspx.cs">
+      <DependentUpon>OnePlusChargers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnePlusChargers.aspx.designer.cs">
+      <DependentUpon>OnePlusChargers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnePlusCoverDetails.aspx.cs">
+      <DependentUpon>OnePlusCoverDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnePlusCoverDetails.aspx.designer.cs">
+      <DependentUpon>OnePlusCoverDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnePlusCovers.aspx.cs">
+      <DependentUpon>OnePlusCovers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnePlusCovers.aspx.designer.cs">
+      <DependentUpon>OnePlusCovers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnePlusMobiles.aspx.cs">
+      <DependentUpon>OnePlusMobiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnePlusMobiles.aspx.designer.cs">
+      <DependentUpon>OnePlusMobiles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnePlusPhoneDetails.aspx.cs">
+      <DependentUpon>OnePlusPhoneDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnePlusPhoneDetails.aspx.designer.cs">
+      <DependentUpon>OnePlusPhoneDetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Realme.aspx.cs">
+      <DependentUpon>Realme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Realme.aspx.designer.cs">
+      <DependentUpon>Realme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RealmeBuds.aspx.cs">
+      <DependentUpon>RealmeBuds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RealmeBuds.aspx.designer.cs">
+      <DependentUpon>RealmeBuds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RealmeBudsDetails.aspx.cs">
+      <DependentUpon>RealmeBudsDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RealmeBudsDetails.aspx.designer.cs">
+      <DependentUpon>RealmeBudsDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RealmeCableDetails.aspx.cs">
+      <DependentUpon>RealmeCableDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RealmeCableDetails.aspx.designer.cs">
+      <DependentUpon>RealmeCableDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RealmeCables.aspx.cs">
+      <DependentUpon>RealmeCables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RealmeCables.aspx.designer.cs">
+      <DependentUpon>RealmeCables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RealmeChargerDetails.aspx.cs">
+      <DependentUpon>RealmeChargerDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RealmeChargerDetails.aspx.designer.cs">
+      <DependentUpon>RealmeChargerDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RealmeChargers.aspx.cs">
+      <DependentUpon>RealmeChargers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RealmeChargers.aspx.designer.cs">
+      <DependentUpon>RealmeChargers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RealmeCoverDetails.aspx.cs">
+      <DependentUpon>RealmeCoverDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RealmeCoverDetails.aspx.designer.cs">
+      <DependentUpon>RealmeCoverDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RealmeCovers.aspx.cs">
+      <DependentUpon>RealmeCovers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RealmeCovers.aspx.designer.cs">
+      <DependentUpon>RealmeCovers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RealmeMobile.aspx.cs">
+      <DependentUpon>RealmeMobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RealmeMobile.aspx.designer.cs">
+      <DependentUpon>RealmeMobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RealmeMobileDetails.aspx.cs">
+      <DependentUpon>RealmeMobileDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RealmeMobileDetails.aspx.designer.cs">
+      <DependentUpon>RealmeMobileDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RechargeSection.aspx.cs">
+      <DependentUpon>RechargeSection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RechargeSection.aspx.designer.cs">
+      <DependentUpon>RechargeSection.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Registration_Page.aspx.cs">
       <DependentUpon>Registration_Page.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Registration_Page.aspx.designer.cs">
       <DependentUpon>Registration_Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samsung.aspx.cs">
+      <DependentUpon>Samsung.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samsung.aspx.designer.cs">
+      <DependentUpon>Samsung.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamsungBuds.aspx.cs">
+      <DependentUpon>SamsungBuds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamsungBuds.aspx.designer.cs">
+      <DependentUpon>SamsungBuds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamsungBudsDetails.aspx.cs">
+      <DependentUpon>SamsungBudsDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamsungBudsDetails.aspx.designer.cs">
+      <DependentUpon>SamsungBudsDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamsungCableDetails.aspx.cs">
+      <DependentUpon>SamsungCableDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamsungCableDetails.aspx.designer.cs">
+      <DependentUpon>SamsungCableDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamsungCables.aspx.cs">
+      <DependentUpon>SamsungCables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamsungCables.aspx.designer.cs">
+      <DependentUpon>SamsungCables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamsungChargerDetails.aspx.cs">
+      <DependentUpon>SamsungChargerDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamsungChargerDetails.aspx.designer.cs">
+      <DependentUpon>SamsungChargerDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamsungChargers.aspx.cs">
+      <DependentUpon>SamsungChargers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamsungChargers.aspx.designer.cs">
+      <DependentUpon>SamsungChargers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamsungCoverDetails.aspx.cs">
+      <DependentUpon>SamsungCoverDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamsungCoverDetails.aspx.designer.cs">
+      <DependentUpon>SamsungCoverDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamsungCovers.aspx.cs">
+      <DependentUpon>SamsungCovers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamsungCovers.aspx.designer.cs">
+      <DependentUpon>SamsungCovers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamsungMobiles.aspx.cs">
+      <DependentUpon>SamsungMobiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamsungMobiles.aspx.designer.cs">
+      <DependentUpon>SamsungMobiles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamsungPhoneDetails.aspx.cs">
+      <DependentUpon>SamsungPhoneDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamsungPhoneDetails.aspx.designer.cs">
+      <DependentUpon>SamsungPhoneDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResults.aspx.cs">
+      <DependentUpon>SearchResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchResults.aspx.designer.cs">
+      <DependentUpon>SearchResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViRecharge.aspx.cs">
+      <DependentUpon>ViRecharge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViRecharge.aspx.designer.cs">
+      <DependentUpon>ViRecharge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Xiaomi.aspx.cs">
+      <DependentUpon>Xiaomi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Xiaomi.aspx.designer.cs">
+      <DependentUpon>Xiaomi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XiaomiBuds.aspx.cs">
+      <DependentUpon>XiaomiBuds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XiaomiBuds.aspx.designer.cs">
+      <DependentUpon>XiaomiBuds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XiaomiBudsDetails.aspx.cs">
+      <DependentUpon>XiaomiBudsDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XiaomiBudsDetails.aspx.designer.cs">
+      <DependentUpon>XiaomiBudsDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XiaomiCableDetails.aspx.cs">
+      <DependentUpon>XiaomiCableDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XiaomiCableDetails.aspx.designer.cs">
+      <DependentUpon>XiaomiCableDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XiaomiCables.aspx.cs">
+      <DependentUpon>XiaomiCables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XiaomiCables.aspx.designer.cs">
+      <DependentUpon>XiaomiCables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XiaomiChargerDetails.aspx.cs">
+      <DependentUpon>XiaomiChargerDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XiaomiChargerDetails.aspx.designer.cs">
+      <DependentUpon>XiaomiChargerDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XiaomiChargers.aspx.cs">
+      <DependentUpon>XiaomiChargers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XiaomiChargers.aspx.designer.cs">
+      <DependentUpon>XiaomiChargers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XiaomiCoverDetails.aspx.cs">
+      <DependentUpon>XiaomiCoverDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XiaomiCoverDetails.aspx.designer.cs">
+      <DependentUpon>XiaomiCoverDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XiaomiCovers.aspx.cs">
+      <DependentUpon>XiaomiCovers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XiaomiCovers.aspx.designer.cs">
+      <DependentUpon>XiaomiCovers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XiaomiMobile.aspx.cs">
+      <DependentUpon>XiaomiMobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XiaomiMobile.aspx.designer.cs">
+      <DependentUpon>XiaomiMobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XiaomiMobileDetails.aspx.cs">
+      <DependentUpon>XiaomiMobileDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XiaomiMobileDetails.aspx.designer.cs">
+      <DependentUpon>XiaomiMobileDetails.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

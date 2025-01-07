@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master_Page.Master" AutoEventWireup="true" CodeBehind="Home_Page.aspx.cs" Inherits="NetWebsite.Home_Page" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
         /* Custom styling for the home page */
@@ -69,7 +70,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <!-- Hero Section -->
     <div class="hero-section">
         <h1>Welcome to Mobile Shop</h1>
         <p>Find the best mobiles, accessories, and deals here!</p>
@@ -87,7 +88,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Mobile Phone</h5>
                         <p class="card-text">Latest mobile with cutting-edge technology.</p>
-                        <a href="Cart_Page.aspx" class="btn btn-primary">Add to Cart</a>
+                        <a href="MobileSection.aspx" class="btn btn-primary">Mobile Section</a>
                     </div>
                 </div>
             </div>
@@ -99,7 +100,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Recharge</h5>
                         <p class="card-text">Recharge your mobile with various plans.</p>
-                        <a href="Cart_Page.aspx" class="btn btn-primary">Add to Cart</a>
+                        <a href="RechargeSection.aspx" class="btn btn-primary">Recharge Section</a>
                     </div>
                 </div>
             </div>
@@ -111,60 +112,66 @@
                     <div class="card-body">
                         <h5 class="card-title">Mobile Accessories</h5>
                         <p class="card-text">Affordable and stylish accessories for your mobile.</p>
-                        <a href="Cart_Page.aspx" class="btn btn-primary">Add to Cart</a>
+                        <a href="MobileAccessories.aspx" class="btn btn-primary">Mobile Accessories </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
 
-<!-- Explore Carousel Section -->
-<div id="exploreCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#exploreCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#exploreCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#exploreCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="Image/Image.jpg" class="d-block w-100" alt="Explore 1">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Discover the Best Deals!</h5>
-                <p>Get exclusive deals and offers on mobiles.</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="Image/Image.jpg" class="d-block w-100" alt="Explore 2">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Latest Mobile Phones</h5>
-                <p>Browse our collection of the latest phones.</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="Image/Image.jpg" class="d-block w-100" alt="Explore 3">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Mobile Accessories</h5>
-                <p>Enhance your experience with the best accessories.</p>
-            </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#exploreCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#exploreCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+    <!-- Explore Carousel Section -->
+    <div id="exploreCarousel" class="carousel slide" data-bs-ride="carousel">
 
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#exploreCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#exploreCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#exploreCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="Image/Image.jpg" class="d-block w-100" alt="Explore 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Discover the Best Deals!</h5>
+                    <p>Get exclusive deals and offers on mobiles.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="Image/Image.jpg" class="d-block w-100" alt="Explore 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Latest Mobile Phones</h5>
+                    <p>Browse our collection of the latest phones.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="Image/Image.jpg" class="d-block w-100" alt="Explore 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Mobile Accessories</h5>
+                    <p>Enhance your experience with the best accessories.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#exploreCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#exploreCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
 
     <!-- Offer Section -->
     <div class="offer-section">
         <h3>Exclusive Offer: Get 20% Off on All Mobile Phones!</h3>
         <p>Don't miss out on this limited-time offer. Hurry up and grab your mobile phone at an amazing discount!</p>
-        <button class="offer-btn" onclick="window.location.href='Gallery_Page.aspx'">Shop Now</button>
+        <button class="offer-btn" onclick="window.location.href='MobileSection.aspx'">Shop Now</button>
     </div>
 
     <!-- About Us Section -->

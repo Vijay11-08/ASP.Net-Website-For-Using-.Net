@@ -34,9 +34,10 @@
         <div class="row">
             <div class="col-md-6 info-box">
                 <h5>Get in Touch</h5>
-                <p><strong>Phone:</strong> +91 9876543210</p>
-                <p><strong>Email:</strong> info@likezonemobileshop.com</p>
-                <p><strong>Address:</strong> Like Zone Mobile Shop, Rajkot, Gujarat, India</p>
+                <p><strong>Phone:</strong> +91 9904640764</p>
+                <p><strong>Phone:</strong> +91 9714520147</p>
+                <p><strong>Email:</strong> likezonemobileshop@gmail.com</p>
+                <p><strong>Address:</strong> Like Zone Mobile Shop, Tramba, Rajkot, Gujarat, India</p>
             </div>
             <div class="col-md-6 map-container">
                 <h5>Find Us Here</h5>

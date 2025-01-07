@@ -50,33 +50,46 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <div class="container gallery-section">
-        <h2>Gallery</h2>
-        <div class="row gallery-container">
-            <!-- Replace the src attributes with your actual image paths -->
-            <div class="col-md-2 gallery-item">
+    <h2>Gallery</h2>
+    <div class="row gallery-container">
+        <!-- Replace the src attributes with your actual image paths -->
+        <div class="col-md-2 gallery-item">
+            <a href="MobileDetails.aspx?mobileId=1">
                 <img src="Image/Image.jpg" alt="Mobile 1">
                 <div class="caption">Latest Smartphone</div>
-            </div>
-            <div class="col-md-2 gallery-item">
+            </a>
+        </div>
+        <div class="col-md-2 gallery-item">
+            <a href="MobileDetails.aspx?mobileId=2">
                 <img src="Image/Image.jpg" alt="Mobile 2">
                 <div class="caption">Sleek Design</div>
-            </div>
-            <div class="col-md-2 gallery-item">
+            </a>
+        </div>
+        <div class="col-md-2 gallery-item">
+            <a href="MobileDetails.aspx?mobileId=3">
                 <img src="Image/Image.jpg" alt="Mobile 3">
                 <div class="caption">High Performance</div>
-            </div>
-            <div class="col-md-2 gallery-item">
+            </a>
+        </div>
+        <div class="col-md-2 gallery-item">
+            <a href="MobileDetails.aspx?mobileId=4">
                 <img src="Image/Image.jpg" alt="Mobile 4">
                 <div class="caption">Affordable Prices</div>
-            </div>
-            <div class="col-md-2 gallery-item">
+            </a>
+        </div>
+        <div class="col-md-2 gallery-item">
+            <a href="MobileDetails.aspx?mobileId=5">
                 <img src="Image/Image.jpg" alt="Mobile 5">
                 <div class="caption">Top Brands</div>
-            </div>
-            <div class="col-md-2 gallery-item">
+            </a>
+        </div>
+        <div class="col-md-2 gallery-item">
+            <a href="MobileDetails.aspx?mobileId=6">
                 <img src="Image/Image.jpg" alt="Mobile 6">
                 <div class="caption">Accessories</div>
-            </div>
+            </a>
         </div>
     </div>
+</div>
+
 </asp:Content>

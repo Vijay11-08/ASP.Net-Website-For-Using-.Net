@@ -8,6 +8,7 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -55,7 +56,27 @@
             padding: 10px 0;
             text-align: center;
         }
+        .social-icons {
+    font-size: 1.5rem; /* Icon size */
+    color: #fff; /* Default icon color */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.social-icons:hover {
+    color: #007bff; /* Change color on hover (e.g., blue) */
+}
+
+.social-icons-container {
+    display: flex;
+    justify-content: center; /* Center-align icons */
+    gap: 15px; /* Spacing between icons */
+    margin-top: 15px; /* Add spacing above the icons */
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
     </style>
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -89,8 +110,14 @@
                         <li class="nav-item">
                             <a class="nav-link" href="Cart_Page.aspx">Cart</a>
                         </li>
+                         <li class="nav-item">
+     <a class="nav-link" href="MobileSection.aspx">Mobile Section</a>
+ </li>
+                                                <li class="nav-item">
+    <a class="nav-link" href="RechargeSection.aspx">Recharge Section</a>
+</li>
                     </ul>
-                    <form class="d-flex">
+                    <form class="d-flex" action="SearchResults.aspx" method="get">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width:auto">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
@@ -105,9 +132,46 @@
         </div>
 
         <!-- Footer -->
-        <footer>
-            <p>&copy; 2025 Mobile Shop. All rights reserved.</p>
-        </footer>
+<!-- Footer -->
+<footer class="footer bg-dark text-white py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="Image/like_logo.png" alt="Company Logo" class="logo" style="max-width: 100px;">
+                <p class="mt-2" style="font-size: 0.9rem;">
+                    WE ARE BEST KNOWN FOR OUR SERVICES
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h5 style="font-size: 1rem;">GET OFFER & NEWS</h5>
+                <form id="subscribeForm" class="mt-2">
+                    <div class="input-group mb-2">
+                        <input type="email" class="form-control" placeholder="Enter your email" aria-label="Email" aria-describedby="button-addon2" required style="font-size: 0.85rem;">
+                        <button class="btn btn-primary" type="submit" id="button-addon2" style="font-size: 0.85rem;">Subscribe</button>
+                        <div class="invalid-feedback">Please enter a valid email.</div>
+                    </div>
+                </form>
+                <ul class="social-icons-container">
+    <li><a href="#" class="fa fa-facebook social-icons"></a></li>
+    <li><a href="#" class="fa fa-twitter social-icons"></a></li>
+    <li><a href="https://www.linkedin.com/in/vijay-otaradi-678427266/" class="fa fa-linkedin social-icons"></a></li>
+    <li><a href="https://www.instagram.com/like_zone_mobile_shop/" class="fa fa-instagram social-icons"></a></li>
+</ul>
+
+            </div>
+            <div class="col-md-4">
+                <h5 style="font-size: 1rem;">Contact Us</h5>
+                <p style="font-size: 0.9rem;">Creative Vijay</p>
+                <p style="font-size: 0.9rem;">+91 8320852144</p>
+                <p style="font-size: 0.9rem;">votaradi213@rku.ac.in</p>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-3">
+        <p style="font-size: 0.85rem;">&copy; 2024 Reserved by Creative Vijay</p>
+    </div>
+</footer>
+
     </form>
 </body>
 </html>
