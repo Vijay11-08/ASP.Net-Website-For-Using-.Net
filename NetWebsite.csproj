@@ -171,6 +171,13 @@
     <Compile Include="Add_To_Cart.aspx.designer.cs">
       <DependentUpon>Add_To_Cart.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin_Master_Page.Master.cs">
+      <DependentUpon>Admin_Master_Page.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Master_Page.Master.designer.cs">
+      <DependentUpon>Admin_Master_Page.Master</DependentUpon>
+    </Compile>
     <Compile Include="AirtelRecharge.aspx.cs">
       <DependentUpon>AirtelRecharge.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -693,6 +700,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Master_Page.Master" />
+    <Content Include="Admin_Master_Page.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
